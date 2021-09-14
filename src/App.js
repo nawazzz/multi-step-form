@@ -11,10 +11,21 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
-        <h1>
-          Multi Step Form
-        </h1>        
+      <div>
+        <div className="flex" style={{width: "500px", margin: "0 auto"}}>
+          <div>
+            <h3 className="textAlignCenter">1</h3>  
+            <p>ACCOUNT SETUP</p>
+          </div>        
+          <div>
+            <h3 className="textAlignCenter">2</h3>
+            <p>SOCIAL PROFILES</p>
+          </div>
+          <div>
+            <h3 className="textAlignCenter">3</h3>
+            <p>PERSONAL DETAILS</p>
+          </div>
+        </div>
       </div>
     );  
   }

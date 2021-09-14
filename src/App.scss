@@ -42,3 +42,10 @@ table {
 	border-spacing: 0;
 }
 // ...........................................................
+.flex{
+	display: flex;
+	justify-content: space-between;
+	.textAlignCenter{
+		text-align: center;
+	}
+}
