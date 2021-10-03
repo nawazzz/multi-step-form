@@ -10,11 +10,11 @@ class App extends React.Component {
       isModalOpen: false,
     }
 
-  handleModalClose = () => {
-    this.setState({
-      isModalOpen: false
-    })
-  }
+  // handleModalClose = () => {
+  //   this.setState({
+  //     isModalOpen: false
+  //   })
+  // }
 
   }
   render() {
@@ -33,11 +33,11 @@ class App extends React.Component {
             <h3 className="textAlignCenter">3</h3>
             <p>PERSONAL DETAILS</p>
           </div>
-          <div>
+          {/* <div>
           <button type="button" onClick={handleOpen}>
             Open Modal
-          </button>
-          <Modal
+          </button> */}
+          {/* <Modal
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
             onRequestClose={this.handleModalClose}
@@ -54,8 +54,8 @@ class App extends React.Component {
               <button>inside</button>
               <button>the modal</button>
             </form>
-          </Modal>
-          </div>
+          </Modal> */}
+          {/* </div> */}
         </div>
       </div>
     );  
